@@ -1,0 +1,17 @@
+h1 {
+    color: red;
+    background-color: orange;
+    background-image: url(../Clase2/golden1.jpeg);
+    background-size: contain;
+    
+}
+
+.lista {
+    list-style-type: none;
+    background-color: aqua;
+}
+
+.texto {
+    color: red;
+    font-family: monospace;
+}
