@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    background-color: pink;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 1rem;
+    
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* flex-flow: row wrap; */
+
+    justify-content: start; /* EJE PRINCIPAL */
+    align-items: stretch; /* EJE SECUNDARIO */
+}
+
+.menu-item {
+    background-color: rgb(241, 105, 241);
+}
+
+.cartitas {
+    padding: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+.cartita {
+    background-color: blueviolet;
+    padding: 1rem;
+    flex: 1;
+    
+}

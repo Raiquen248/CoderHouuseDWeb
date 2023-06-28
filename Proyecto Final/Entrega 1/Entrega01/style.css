@@ -51,9 +51,7 @@
 		position: absolute;
 		top: 160px;
 		left: 148px;
-		right: 0;
-		bottom: 0;
-	 
+		
 	}
 
 .rectangulobeige {
@@ -90,7 +88,7 @@
 	left: 895px;
 	right: 0;
 	bottom: 0;
-	
+
   }
 
   .somoumbra {
@@ -180,7 +178,7 @@
 
 .textvideo {
     width: 1222px;
-    height: 314px;
+    height: 300px;
     color: #798da3;
     font-family: "Open Sans";
     font-weight: 400;
@@ -188,6 +186,129 @@
     line-height: 1.5;
     text-align: center;
 	position: absolute;
-	top: 1010px;
+	top: 990px;
 	left: 380px;
 } 
+
+#rectangulo3 {
+	width: 1827px;
+	height: 280px;
+	padding: 8px;
+	background-color: #FFDAD8;
+	border-radius: 3px;
+	position: absolute;
+	 top: 1550px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+#barraservice {
+	width: 189px;
+	height: 5px;
+	padding: 8px 8px 8px 8px;
+	background: #eef1f5;
+	position: absolute;
+	top: 1800px;
+	left: 895px;
+	right: 0;
+	bottom: 0;
+  }
+
+  .mas {
+    width: 125px;
+    height: 118px;
+    background: #000000;
+	position: absolute;
+	top: 1330px;
+	left: 925px;
+}
+
+#mas {width: 985px;
+    height: 65px;
+    color: #3b4754;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+    text-align: center;
+	top:1420px;
+	left: 499px;
+}
+
+.ymas  {
+    width: 1222px;
+    height: 300px;
+    color: #798da3;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.5;
+    text-align: center;
+	position: absolute;
+	top: 1511px;
+	left: 380px;
+}
+
+#portfolio1 {
+	background-color: #F2C9FB;
+	border-radius: 3px 3px 3px 3px;
+	width: 1618px;
+    height: 137px;
+    padding: 8px 8px 8px 8px;
+    opacity: 60%
+	   
+}
+
+#portfolio2 {
+	top: 1000px;
+	background-color: #FFDAD8;
+	border-radius: 3px 3px 3px 3px;
+	width: 1618px;
+    height: 137px;
+    padding: 8px 8px 8px 8px;
+    opacity: 60%
+	 
+}
+
+.image-group1 {
+	position: relative;
+	margin-top: 365px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.image-group1 img {
+    border-color: #edf0f4;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 8px 8px 8px 
+}
+
+.image-group2 {
+	position: relative;
+	margin-top:130px;
+	display: flex;
+	justify-content: space-evenly;
+}
+.image-group2 img {
+    border-color: #edf0f4;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 8px 8px 8px 
+}
+
+.equipoimage { 
+	position: relative;
+	top: 250px;
+	display: flex;
+	justify-content: center;
+
+}
+
+.redcopy {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+  }
+  
