@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.grilla {
+    height: 100vh;
+    background-color: pink;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    grid-template-areas: 
+        "logo   quien  imagen        servicios"
+        "logo   productos  .    contacto";
+
+    gap: 1rem;
+    /* column-gap: 2rem;
+    row-gap: 1rem; */
+}
+
+.logo {
+    background-color: aquamarine;
+    grid-area: logo;
+}
+
+.quien {
+    background-color: chocolate;
+    grid-area: quien;
+}
+
+.servicios {
+    background-color: darkmagenta;
+    grid-area: servicios;
+}
+
+.productos {
+    background-color: deepskyblue;
+    grid-area: productos;
+}
+
+.contacto {
+    background-color: fuchsia;
+    grid-area: contacto;
+}
+
+.imagen {
+    grid-area: imagen;
+    background-image: url("../perro.jpg");
+    background-size: cover;
+    background-position: center center;
+}
