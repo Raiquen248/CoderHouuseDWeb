@@ -78,6 +78,7 @@ header {
  	 align-items: center; 
 }
  .rectangulofino {
+	margin-top: 35px;
 	width: 1618px;
 	height: 5px;
 	padding: 8px 8px 8px 8px;
@@ -133,6 +134,7 @@ NOSOTROS */
 
 
 .contenedorsomos {
+	margin-top: 53px;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -236,65 +238,40 @@ SERVICIOS SERVICIOS SERVICIOS*/
   }
 
 /* PORTFOLIO PORTFOLIO PORTFOLIO
-PORTFOLIO PORTFOLIO PORTFOLIO
-PORTFOLIO PORTFOLIO PORTFOLIO
+
 PORTFOLIO PORTFOLIO PORTFOLIO */
 
-#portfolio1 {
-	z-index: -1;
-	background-color: #F2C9FB;
-	border-radius: 3px 3px 3px 3px;
-	width: 1618px;
-    height: 137px;
-    padding: 8px 8px 8px 8px;
-    opacity: 60%
-
-	   
-}
-
-#portfolio2 {
-	z-index: -1;
-	top: 1000px;
-	background-color: #FFDAD8;
-	border-radius: 3px 3px 3px 3px;
-	width: 1618px;
-    height: 137px;
-    padding: 8px 8px 8px 8px;
-    opacity: 60%
-	 
-}
 
 .abueloimg {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
 	align-items: center;
+	height: 100vh;
+	flex-wrap: wrap;
+  }
+  
+  .image-group1 {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+  }
+  
+  .image-group1 img {
+	flex-basis: calc(30% - 20px); 
+	max-width: 100%; 
+	max-height: 100%; 
+	object-fit: contain; 
+	margin: 10px; 
+	transition: opacity 0.3s ease; 
 }
 
-.image-group1 {
-	z-index: 0;
-	margin-top: 150px;
-	display: flex;
-	justify-content: space-evenly;
-}
-.image-group1 img {
-    border-color: #edf0f4;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 8px 8px 8px 
+.image-group1 img:hover {
+  opacity: 0.7; 
+  filter: brightness(80%) sepia(20%) saturate(300%) hue-rotate(330deg);
 }
 
-.image-group2 {
-	z-index: 0;
-	margin-top:130px;
-	display: flex;
-	justify-content: space-evenly;
-}
-.image-group2 img {
-    border-color: #edf0f4;
-    border-width: 10px;
-    border-style: solid;
-    border-radius: 8px 8px 8px 
-}
+
  
 /* EQUIPO  */
 /* EQUIPO  */
