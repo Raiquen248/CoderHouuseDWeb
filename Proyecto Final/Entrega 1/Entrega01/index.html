@@ -1,41 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Umbra Audiovisual</title>
-    <link rel="stylesheet" href="./style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Umbra Audiovisual</title>
+  <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-  <header> 
+  <header>
     <a href="index.html">
-        <img class="logoumbra" src="./Image/logoumbra.jpg" alt="">
+      <img class="logoumbra" src="./Image/logoumbraPNG.png" alt="">
     </a>
-      <nav class="link-bar-3">
+    <nav class="link-bar-3">
       <ul>
-        <li><a href="./pages/Nosotros.html">Nosotros</a></li>
-        <li><a href="./pages/Servicios.html">Servicios</a></li>
+        <li><a href="#nosotros-section">Nosotros</a></li>
+        <li><a href="#servicios-section">Servicios</a></li>
         <li><a href="./pages/Portfolio.html">Portfolio</a></li>
         <li><a href="./pages/Equipo.html">Equipo</a></li>
         <li><a href="./pages/Contactanos.html">Contacto</a></li>
       </ul>
     </nav>
   </header>
-  <div class="contenedor">
-    <div class="rectangulofino"></div>
-   </div>
-   <div class="contenedorbeige">
-      <div class="rectangulobeige"></div>
+
+  <main>
+    <div class="contenedor">
+      <div class="rectangulofino"></div>
+    </div>
+
+    <div class="contenedorfoto">
+      <img src="./Image/portada.png" alt="Portada Umbra" class="portada">
+    </div>
+  </main>
+  <div class="contenedorsomos" id="nosotros-section" >
+    <h1 class="somoumbra"> ¡Hola! Somos Umbra Audiovisual</h1>
+    <p class="textnosotros">Un equipo apasionado de fotógrafos y videógrafos dedicados a capturar momentos inolvidables. Con 10 años de experiencia, buscamos contar historias a través de nuestras imágenes y vídeos. Nos esforzamos por brindar un servicio personalizado y de alta calidad, adaptándonos a tus preferencias y estilo. Utilizamos equipos de última generación y técnicas innovadoras para obtener resultados impactantes. Estamos emocionados de ser parte de tu próximo proyecto y preservar recuerdos que perdurarán para siempre.</p>
+    <img src="./Image/iconoPNG.png" alt="EyeHearts">
+</div>
+
+<section class="gruposervicios" id="servicios-section">
+  <div class="column">
+    <img src="./Image/camara.png" alt="Foto 1">
+    <h2>Fotografia</h2>
+    <p>Inmortalizamos los momentos más preciados con nuestra pasión por la fotografía. Ya sea que necesites una sesión de retratos, cobertura de eventos o fotografía de productos, estamos aquí para capturar la esencia y la emoción en cada imagen. </p>
   </div>
- 
-  <div class="contenedorfoto">
-         <img src="./Image/portada.jpg" alt="Portada Umbra" class="portada">
+  
+  <div class="column">
+    <img src="./Image/video.png" alt="Foto 2">
+    <h2>Video</h2>
+    <p>Contamos historias a través de nuestros vídeos. Desde la cobertura de eventos hasta producciones cinematográficas, utilizamos técnicas creativas y equipos de alta calidad para crear vídeos que te transporten y te emocionen. </p>
   </div>
- 
-  <div class="contenedorrecfinocorto">
-     <div class="rectangulofinocorto">  </div>
-   </div>
-     
-</body>
+  
+  <div class="column">
+    <img src="./Image/mas.png" alt="Foto 3">
+    <h2>Y mucho mas...</h2>
+    <p>También ofrecemos otros servicios para complementar tus necesidades. Esto puede incluir maquillaje, locacion, retoque y edición de imágenes, diseño de álbumes fotográficos, sesiones de fotos temáticas o incluso servicios de impresión. </p>
+  </div>
+</section>
+
+  <footer>
+    <div class="redes-sociales">
+      <a href="https://www.facebook.com/umbrAudiovisual" target="_blank">
+        <img src="./Image/Facelogo.png" alt="Facebook">
+      </a>
+   
+      <a href="https://www.instagram.com/umbra_estudio/" target="_blank">
+        <img src="./Image/Instagram.png" alt="Instagram">
+      </a>
+    </div>
+  
+    <p class="copyright">
+      &copy; Umbra Estudio. Todos los derechos reservados.
+    </p>
+  </footer>
+  
 </html>
