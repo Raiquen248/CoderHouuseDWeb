@@ -1,55 +1,51 @@
 header {
-
-	z-index: 1;
 	position: sticky;
 	top: 0;
-	background-color: #ffffff;
-	padding: 1px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center; 
+	
   }
   
-  .logoumbra {
+  .navbar-brand img {
+	margin-left: 150px;
 	width: 104px;
-	background: #000000;
-	background-color: #ffffff;
 	padding: 5px;
-	transition: background-color 0.5s ease;
-	max-width: 100%; 
-	height: auto; 
+	;
   }
   
-  .logoumbra:hover {
+  .navbar-brand:hover {
 	background-color: #f6d7f4;
+	transition: background-color 0.8s ease
   }
   
-  .link-bar-3 {
-	display: flex;
+  .navbar-collapse {
+	
 	align-items: center;
 	justify-content: center;
 	max-width: 1248px;
 	margin: 0 auto;
-	height: 76px;
-	color: #fff;
+
 	font-family: "Open Sans";
 	font-weight: 700;
 	font-size: 15px;
 	text-align: center;
-	background-color: #fff;
-  }
+}
   
-  .link-bar-3 ul {
+.navbar-collapse:hover {
+	background-color: #9de8eb;
+	transition: background-color 0.8s ease
+
+}
+
+.navbar-collapse ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
   }
   
-  .link-bar-3 ul li {
+  .navbar-collapse ul li {
 	display: inline-block;
   }
   
-  .link-bar-3 ul li a {
+  .navbar-collapse ul li a {
 	display: block;
 	color: #000000;
 	text-decoration: none;
@@ -57,21 +53,17 @@ header {
 	transition: background-color 0.8s ease;
   }
   
-  .link-bar-3 ul li a:hover {
+  .navbar-collapse ul li a:hover {
 	background-color: #f6d7f4;
   }
   
- 
-  @media screen and (max-width: 768px) {
-	header {
-	  flex-direction: column;
-	}
   
-	.logoumbra {
-	  margin-bottom: 10px;
+  @media screen and (max-width: 768px) {
+	.navbar-brand img {
+		margin-left: 10px;;
 	}
   }
-
+ 
 .contenedor {
 	 display: flex;
  	 justify-content: center; 
