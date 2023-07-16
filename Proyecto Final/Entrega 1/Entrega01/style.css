@@ -6,10 +6,8 @@ header {
   
   .navbar-brand img {
 	margin-left: 150px;
-	width: 104px;
-	padding: 5px;
-	;
-  }
+	width: 70px;
+}
   
   .navbar-brand:hover {
 	background-color: #f6d7f4;
@@ -64,6 +62,7 @@ header {
 	}
   }
  
+
 .contenedor {
 	 display: flex;
  	 justify-content: center; 
@@ -178,7 +177,7 @@ SERVICIOS SERVICIOS SERVICIOS
 SERVICIOS SERVICIOS SERVICIOS*/
 
 .preservicios {
-	margin-bottom: 30px;
+	margin-top: 53px;;
 
 }
 
